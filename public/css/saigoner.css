@@ -149,6 +149,15 @@ a {
 }
 
 /* Buttons */
+.btn,
+.btn:hover,
+.btn:focus,
+.btn:active,
+.sb-social-btn,
+.sb-carousel-arrow {
+    box-shadow: none !important;
+}
+
 .btn-sb-primary {
     background-color: var(--sb-secondary);
     color: var(--sb-bg);
@@ -157,7 +166,6 @@ a {
     padding: 0.72rem 1.75rem;
     font-weight: 500;
     letter-spacing: 0.02em;
-    box-shadow: 0 8px 20px rgba(58, 49, 46, 0.14);
 }
 
 .btn-sb-primary:hover,
@@ -166,7 +174,6 @@ a {
     border-color: var(--sb-primary);
     color: #fff;
     transform: translateY(-2px);
-    box-shadow: 0 12px 24px rgba(242, 65, 57, 0.26);
 }
 
 .btn-sb-coral {
@@ -177,7 +184,6 @@ a {
     padding: 0.72rem 1.75rem;
     font-weight: 500;
     letter-spacing: 0.02em;
-    box-shadow: 0 8px 22px rgba(242, 65, 57, 0.22);
 }
 
 .btn-sb-coral:hover,
