@@ -84,11 +84,6 @@ a {
     height: 52px;
     width: auto;
     object-fit: contain;
-    transition: transform 0.25s ease;
-}
-
-.navbar-brand:hover .sb-brand-logo {
-    transform: scale(1.03);
 }
 
 .sb-brand-title {
