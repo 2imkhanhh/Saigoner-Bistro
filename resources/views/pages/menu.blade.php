@@ -54,9 +54,6 @@
                         <div class="sb-menu-sheet"
                              data-lightbox-src="{{ asset("images/menu/menu-page-{$i}.png") }}"
                              data-lightbox-caption="Saigoner Bistro Menukort — Side {{ $i }} af 6">
-                            <span class="sb-menu-sheet-tag">
-                                <i class="bi bi-zoom-in me-1"></i> Side {{ $i }} / 6
-                            </span>
                             <img src="{{ asset("images/menu/menu-page-{$i}.png") }}"
                                  alt="Saigoner Bistro Menukort side {{ $i }}" loading="lazy">
                         </div>
