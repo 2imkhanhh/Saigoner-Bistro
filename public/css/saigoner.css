@@ -401,6 +401,7 @@ a {
     border-radius: 252px 252px calc(var(--sb-radius-md) - 4px) calc(var(--sb-radius-md) - 4px);
     overflow: hidden;
     position: relative;
+    isolation: isolate;
 }
 
 .sb-hero-arch-inner img {
@@ -408,6 +409,8 @@ a {
     aspect-ratio: 4 / 4.55;
     object-fit: cover;
     display: block;
+    will-change: transform;
+    backface-visibility: hidden;
     transition: transform 0.65s ease;
 }
 
@@ -432,7 +435,9 @@ a {
     justify-content: center;
     text-align: center;
     padding: 0.5rem;
-    transform: rotate(10deg);
+    transform: rotate(10deg) translateZ(0);
+    backface-visibility: hidden;
+    -webkit-font-smoothing: antialiased;
     z-index: 4;
     box-shadow: 0 10px 24px rgba(181, 32, 37, 0.32);
 }
