@@ -48,9 +48,9 @@
     <!-- Mobile Offcanvas Drawer -->
     <div class="offcanvas offcanvas-end" tabindex="-1" id="sbMobileNav" aria-labelledby="sbMobileNavLabel"
          style="background-color: var(--sb-bg); color: var(--sb-secondary);">
-        <div class="offcanvas-header border-bottom" style="border-color: var(--sb-border) !important;">
+        <div class="offcanvas-header border-bottom" style="border-color: rgba(184, 137, 64, 0.35) !important;">
             <div class="d-flex align-items-center" id="sbMobileNavLabel">
-                <img src="{{ asset('images/brand/logo-header.png') }}" alt="Saigoner Bistro" style="height: 42px;">
+                <img src="{{ asset('images/brand/logo-header.png') }}" alt="Saigoner Bistro" style="height: 44px;">
             </div>
             <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Luk menu"></button>
         </div>
@@ -70,14 +70,14 @@
                 </li>
             </ul>
 
-            <div class="pt-4 border-top" style="border-color: var(--sb-border) !important;">
+            <div class="pt-4 border-top" style="border-color: rgba(184, 137, 64, 0.35) !important;">
                 <a href="https://live.tebi.co/ecom/reservations/662376_9d857a9c17abefe701308232e953c8c048909cb44379c7cc7f8ed5cdf0fb355d"
                    target="_blank" rel="noopener noreferrer" class="btn btn-sb-coral w-100 mb-3">
                     <i class="bi bi-calendar2-check me-1"></i> Book bord
                 </a>
-                <div class="small text-muted mb-2" style="color: var(--sb-ink-muted) !important;">
-                    <i class="bi bi-geo-alt text-danger me-1"></i> Øster Farimagsgade 12, 2100 København Ø<br>
-                    <i class="bi bi-telephone text-danger me-1"></i> +45 4114 2100
+                <div class="small mb-2" style="color: var(--sb-ink-muted);">
+                    <i class="bi bi-geo-alt sb-text-crimson me-1"></i> Øster Farimagsgade 12, 2100 København Ø<br>
+                    <i class="bi bi-telephone sb-text-crimson me-1"></i> +45 4114 2100
                 </div>
                 <div class="d-flex gap-2 mt-3">
                     <a href="https://www.instagram.com/@saigonerbistro" target="_blank" rel="noopener noreferrer" class="sb-social-btn" aria-label="Instagram">
@@ -91,4 +91,3 @@
         </div>
     </div>
 </header>
-

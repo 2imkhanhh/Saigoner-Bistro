@@ -9,7 +9,7 @@
         <div class="sb-page-hero-overlay"></div>
         <div class="container sb-page-hero-content text-center">
             <div class="mx-auto reveal-up" style="max-width: 720px;">
-                <span class="sb-eyebrow mb-3" style="background-color: rgba(242,65,57,0.24); color: #ffdda6;">
+                <span class="sb-eyebrow mb-3" style="background-color: rgba(181,32,37,0.32); border-color: rgba(184,137,64,0.45); color: #ffdda6;">
                     Øster Farimagsgade 12 · København Ø
                 </span>
                 <h1 class="mb-3">Book dit bord i dag</h1>
@@ -25,7 +25,7 @@
     </section>
 
     <!-- Contact Details, Portrait & Opening Hours -->
-    <section class="sb-section">
+    <section class="sb-section sb-pattern-tile">
         <div class="container">
             <div class="row g-4 align-items-stretch">
                 <div class="col-lg-4 reveal-up">
@@ -35,18 +35,18 @@
                             <h3 class="mb-3">Kontaktinformation</h3>
                             <ul class="list-unstyled d-grid gap-3 mb-4">
                                 <li class="d-flex gap-3 align-items-start">
-                                    <i class="bi bi-geo-alt-fill fs-5" style="color: var(--sb-primary);"></i>
+                                    <i class="bi bi-geo-alt-fill fs-5 sb-text-crimson"></i>
                                     <div>
                                         <div class="fw-semibold">Øster Farimagsgade 12</div>
                                         <div class="small" style="color: var(--sb-ink-muted);">2100 – København Ø</div>
                                     </div>
                                 </li>
                                 <li class="d-flex gap-3 align-items-center">
-                                    <i class="bi bi-telephone-fill fs-5" style="color: var(--sb-primary);"></i>
+                                    <i class="bi bi-telephone-fill fs-5 sb-text-crimson"></i>
                                     <a href="tel:+4541142100" class="fw-semibold text-decoration-none">+45 4114 2100</a>
                                 </li>
                                 <li class="d-flex gap-3 align-items-center">
-                                    <i class="bi bi-envelope-fill fs-5" style="color: var(--sb-primary);"></i>
+                                    <i class="bi bi-envelope-fill fs-5 sb-text-crimson"></i>
                                     <a href="mailto:contact@saigonerbistro.dk" class="fw-semibold text-decoration-none">contact@saigonerbistro.dk</a>
                                 </li>
                             </ul>
@@ -77,7 +77,7 @@
                             <span class="sb-eyebrow mb-3">Åbningstider</span>
                             <h3 class="mb-3">Hvornår vi har åbent</h3>
                             <ul class="list-unstyled sb-hours-list mb-3">
-                                <li><span class="fw-medium">Mandag</span><span class="text-danger fw-semibold">Lukket</span></li>
+                                <li><span class="fw-medium">Mandag</span><span class="sb-text-crimson fw-semibold">Lukket</span></li>
                                 <li><span class="fw-medium">Tirsdag</span><span>17:00 – 21:30</span></li>
                                 <li><span class="fw-medium">Onsdag</span><span>17:00 – 21:30</span></li>
                                 <li><span class="fw-medium">Torsdag</span><span>17:00 – 21:30</span></li>
@@ -86,8 +86,8 @@
                                 <li><span class="fw-medium">Søndag</span><span>12:00 – 15:30</span></li>
                             </ul>
                         </div>
-                        <div class="p-3 rounded-3 small" style="background-color: var(--sb-tertiary);">
-                            <i class="bi bi-clock me-1 text-danger"></i>
+                        <div class="p-3 rounded-3 small" style="background-color: var(--sb-tertiary); border: 1px solid var(--sb-gold-soft);">
+                            <i class="bi bi-clock me-1 sb-text-crimson"></i>
                             Køkkenet lukker kl. 21:00 (søndag kl. 15:00).
                         </div>
                     </div>
@@ -97,11 +97,11 @@
     </section>
 
     <!-- Editorial Feature Article -->
-    <section class="sb-section sb-section-soft border-top" style="border-color: var(--sb-border) !important;">
+    <section class="sb-section sb-section-soft border-top" style="border-color: var(--sb-gold-soft) !important;">
         <div class="container">
             <div class="mb-4 reveal-up">
                 <span class="sb-eyebrow mb-2">Læs mere om os</span>
-                <h2 class="display-6 mb-1">Kontraster på en tallerken</h2>
+                <h2 class="display-6 mb-1 font-display">Kontraster på en tallerken</h2>
                 <p class="small mb-0" style="color: var(--sb-ink-muted);">Skrevet af André Bentsen · andre@osterbroliv.dk</p>
             </div>
 
@@ -122,8 +122,13 @@
                 </div>
 
                 <div class="col-lg-7 reveal-up">
-                    <div class="sb-card p-4 p-md-5">
-                        <p>
+                    <div class="sb-menu-frame">
+                        <span class="sb-corner sb-corner--tl"></span>
+                        <span class="sb-corner sb-corner--tr"></span>
+                        <span class="sb-corner sb-corner--bl"></span>
+                        <span class="sb-corner sb-corner--br"></span>
+
+                        <p class="sb-dropcap">
                             Men hvor du måske kommer for de vietnamesiske specialiteter, er der en reel risiko for, at du kommer tilbage på grund af de friske cocktails, der er specialdesignet til at passe til de små tapasanretninger.
                         </p>
                         <p>
@@ -136,11 +141,11 @@
                             – Det betyder noget for mig og for smagen, at vi tillader mad at tage den tid det tager for at opnå den helt autentiske smag. Den skulle gerne smage hjemmelavet, men som en frisk oplevelse. Både i mad og cocktails.
                         </p>
                         <p class="mb-4">
-                            På Øster Farimagsgade fortæller Sơn Phạm, at naboerne har taget varmt imod personalet. København er blevet et smukt hjem, og <em>Saigon betyder for ham livets krydderi — et helt madland i sig selv.</em>
+                            På Øster Farimagsgade fortæller Sơn Phạm, at naboerne har taget varmt imod personalet. København er blevet et smukt hjem, og <em class="sb-text-crimson">Saigon betyder for ham livets krydderi — et helt madland i sig selv.</em>
                         </p>
 
                         <div class="pt-4 border-top d-flex flex-column flex-sm-row align-items-center justify-content-between gap-3"
-                             style="border-color: var(--sb-border) !important;">
+                             style="border-color: var(--sb-gold-soft) !important;">
                             <div class="small" style="color: var(--sb-ink-muted);">
                                 Se vores officielle kontrolrapport hos Fødevarestyrelsen:
                             </div>
@@ -156,4 +161,3 @@
         </div>
     </section>
 @endsection
-

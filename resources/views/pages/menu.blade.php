@@ -10,11 +10,11 @@
         <div class="container sb-page-hero-content">
             <div class="row align-items-center g-4">
                 <div class="col-lg-7 reveal-up">
-                    <span class="sb-eyebrow mb-3" style="background-color: rgba(242,65,57,0.22); color: #ffdda6;">
+                    <span class="sb-eyebrow mb-3" style="background-color: rgba(181,32,37,0.32); border-color: rgba(184,137,64,0.45); color: #ffdda6;">
                         Tapas · Hovedretter · Cocktails
                     </span>
                     <h1 class="mb-3">Saigoner Bistro Menu</h1>
-                    <p class="lead mb-0" style="color: rgba(255, 235, 204, 0.88);">
+                    <p class="lead mb-0" style="color: rgba(255, 235, 204, 0.9);">
                         Udforsk vores lækre menukort hvor du kan sammensætte små retter fra Tapas collection og tilføje små hovedretter til dine 3, 5 eller 7 tapasretter.
                     </p>
                 </div>
@@ -34,12 +34,12 @@
     </section>
 
     <!-- Menu Cards Showcase -->
-    <section class="sb-section">
+    <section class="sb-section sb-pattern-tile">
         <div class="container">
             <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end mb-4 gap-3 reveal-up">
                 <div>
                     <span class="sb-eyebrow mb-2">Menukort</span>
-                    <h2 class="display-6 mb-1">Klik på siderne for at zoome ind</h2>
+                    <h2 class="display-6 mb-1 font-display">Klik på siderne for at zoome ind</h2>
                     <p class="mb-0 small" style="color: var(--sb-ink-muted);">Brug piletasterne i fuldskærmsvisningen for at bladre mellem siderne.</p>
                 </div>
                 <a href="https://book.easytablebooking.com/book/?id=5095f&lang=auto"
@@ -67,11 +67,11 @@
     </section>
 
     <!-- Culinary Gallery -->
-    <section class="sb-section sb-section-alt border-top" style="border-color: var(--sb-border) !important;">
+    <section class="sb-section sb-section-alt border-top" style="border-color: var(--sb-gold-soft) !important;">
         <div class="container">
             <div class="text-center mx-auto mb-5 reveal-up" style="max-width: 640px;">
                 <span class="sb-eyebrow mb-2">Fra køkkenet</span>
-                <h2 class="display-6 mb-2">Et indblik i vores retter &amp; stemning</h2>
+                <h2 class="display-6 mb-2 font-display">Et indblik i vores retter &amp; stemning</h2>
                 <p class="mb-0" style="color: var(--sb-ink-muted);">Friske krydderurter, håndrullede klassikere og signaturcocktails skabt til at deles.</p>
             </div>
 
@@ -104,4 +104,3 @@
         </div>
     </section>
 @endsection
-

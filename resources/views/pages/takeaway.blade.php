@@ -9,7 +9,7 @@
         <div class="sb-page-hero-overlay"></div>
         <div class="container sb-page-hero-content text-center">
             <div class="mx-auto reveal-up" style="max-width: 720px;">
-                <span class="sb-eyebrow mb-3" style="background-color: rgba(242,65,57,0.24); color: #ffdda6;">
+                <span class="sb-eyebrow mb-3" style="background-color: rgba(181,32,37,0.32); border-color: rgba(184,137,64,0.45); color: #ffdda6;">
                     Bestil · Afhent · Enjoy
                 </span>
                 <h1 class="mb-3">Velkommen til vores Take Away</h1>
@@ -25,13 +25,13 @@
     </section>
 
     <!-- 3 Easy Steps -->
-    <section class="sb-section">
+    <section class="sb-section sb-pattern-tile">
         <div class="container">
             <div class="row g-4">
                 <div class="col-md-4 reveal-up">
                     <div class="sb-card p-4 h-100 text-center">
                         <div class="rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
-                             style="width: 60px; height: 60px; background-color: rgba(242,65,57,0.12); color: var(--sb-primary);">
+                             style="width: 62px; height: 62px; background-color: var(--sb-primary-soft); border: 1px solid var(--sb-border-crimson); color: var(--sb-primary);">
                             <i class="bi bi-phone fs-3"></i>
                         </div>
                         <h4 class="mb-2">1. Bestil online</h4>
@@ -43,7 +43,7 @@
                 <div class="col-md-4 reveal-up">
                     <div class="sb-card p-4 h-100 text-center">
                         <div class="rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
-                             style="width: 60px; height: 60px; background-color: rgba(242,65,57,0.12); color: var(--sb-primary);">
+                             style="width: 62px; height: 62px; background-color: var(--sb-primary-soft); border: 1px solid var(--sb-border-crimson); color: var(--sb-primary);">
                             <i class="bi bi-shop fs-3"></i>
                         </div>
                         <h4 class="mb-2">2. Afhent i København Ø</h4>
@@ -55,7 +55,7 @@
                 <div class="col-md-4 reveal-up">
                     <div class="sb-card p-4 h-100 text-center">
                         <div class="rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
-                             style="width: 60px; height: 60px; background-color: rgba(242,65,57,0.12); color: var(--sb-primary);">
+                             style="width: 62px; height: 62px; background-color: var(--sb-primary-soft); border: 1px solid var(--sb-border-crimson); color: var(--sb-primary);">
                             <i class="bi bi-heart fs-3"></i>
                         </div>
                         <h4 class="mb-2">3. Enjoy</h4>
@@ -66,10 +66,15 @@
                 </div>
             </div>
 
-            <div class="sb-card p-4 p-md-5 mt-5 reveal-up" style="background-color: var(--sb-tertiary);">
+            <div class="sb-menu-frame mt-5 reveal-up">
+                <span class="sb-corner sb-corner--tl"></span>
+                <span class="sb-corner sb-corner--tr"></span>
+                <span class="sb-corner sb-corner--bl"></span>
+                <span class="sb-corner sb-corner--br"></span>
+
                 <div class="row align-items-center g-4">
                     <div class="col-lg-8">
-                        <h3 class="mb-2">Klar til at bestille?</h3>
+                        <h3 class="mb-2 font-display">Klar til at bestille?</h3>
                         <p class="mb-0" style="color: var(--sb-ink-muted);">
                             Du kan også se hele menukortet inden du bestiller, eller ringe til os på <strong>+45 4114 2100</strong> hvis du har spørgsmål til allergener eller større selskaber.
                         </p>
@@ -84,4 +89,3 @@
         </div>
     </section>
 @endsection
-
