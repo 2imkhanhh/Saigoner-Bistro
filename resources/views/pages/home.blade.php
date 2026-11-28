@@ -305,10 +305,11 @@
                         @foreach($traits as $trait)
                             <div class="col-sm-6">
                                 <div class="sb-trait-card">
-                                    <div class="d-flex align-items-center gap-2 mb-1">
+                                    <div class="sb-trait-head mb-2">
                                         <span class="sb-trait-num">{{ $trait['num'] }}</span>
-                                        <h6 class="mb-0 fw-semibold" style="color: var(--sb-bg);">{{ $trait['title'] }}</h6>
+                                        <span class="sb-trait-line" aria-hidden="true"></span>
                                     </div>
+                                    <h6 class="mb-1 fw-semibold" style="color: var(--sb-bg);">{{ $trait['title'] }}</h6>
                                     <p class="small mb-0" style="color: rgba(255, 235, 204, 0.76);">{{ $trait['desc'] }}</p>
                                 </div>
                             </div>

@@ -619,11 +619,34 @@ a {
     transform: translateY(-2px);
 }
 
+.sb-trait-head {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
 .sb-trait-num {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
     font-family: var(--sb-font-display);
-    font-size: 1.05rem;
-    color: var(--sb-gold);
-    letter-spacing: 0.08em;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: var(--sb-bg);
+    background-color: rgba(181, 32, 37, 0.34);
+    border: 1px solid rgba(184, 137, 64, 0.7);
+}
+
+.sb-trait-line {
+    height: 1px;
+    flex: 1;
+    background: linear-gradient(90deg, rgba(184, 137, 64, 0.55), transparent);
 }
 
 /* Quote card — crisp frame, zero shadow */
